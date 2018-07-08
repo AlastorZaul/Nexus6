@@ -1,0 +1,40 @@
+<ActionBar class="action-bar">
+    <!-- 
+    Use the NavigationButton as a side-drawer button in Android
+    because ActionItems are shown on the right side of the ActionBar
+    -->
+    <NavigationButton ios:visibility="collapsed" icon="res://menu" (tap)="onDrawerButtonTap()"></NavigationButton>
+    <!-- 
+    Use the ActionItem for IOS with position set to left. Using the
+    NavigationButton as a side-drawer button in iOS is not possible,
+    because its function is to always navigate back in the application.
+    -->
+    <ActionItem icon="res://navigation/menu" android:visibility="collapsed" (tap)="onDrawerButtonTap()" ios.position="left">
+    </ActionItem>
+    <Label class="action-bar-title" text="Le film"></Label>
+</ActionBar>
+<StackLayout class="page">
+    <GridLayout col="*" row="auto">
+        <StackLayout row="0" margin="0">
+            <Image [src]="film.image"></Image>
+        </StackLayout>
+        <StackLayout row="0">
+            <Label [text]="film.titre" class="titre"></Label>
+        </StackLayout>
+        <StackLayout row="0">
+            <Labal [text]="'By '+film.realisateur" class="commentaire"></Labal>
+        </StackLayout>
+    </GridLayout>
+</StackLayout>
+<ScrollView orientation="vertical" marginTop="210">
+    <StackLayout>
+        <StackLayout>
+            <Label text="Le film" class="commentaire"></Label>
+            <Label [text]="film.pitch" textWrap="true"></Label>
+        </StackLayout>
+        <StackLayout>
+            <Label text="Commentaire libre" class="commentaire"></Label>
+            <Label [text]="film.commentaire" textWrap="true"></Label>
+        </StackLayout>
+    </StackLayout>
+</ScrollView>

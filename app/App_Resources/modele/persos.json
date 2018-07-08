@@ -1,0 +1,37 @@
+[{
+    "id": "_01",
+    "nom": "Roy Batty",
+    "image": "res://rb",
+    "description": "Le leader du groupe, le loup alpha, intelligent, il rencontre son créateur et dans un acte de puissance absolu, il le tue de ses mains pour ne pas lui avoir donné l'immortalité. La mort lui est insupportable, le non sens de l'existence qu'il refuse. Dieu parmi les hommes.",
+    "type": "Réplicant"
+}, {
+    "id": "_02",
+    "nom": "Rick Deckard",
+    "image": "res://deckard",
+    "description": "Le Blade Runner, confronté à une humanité naissante il est interpelé par son propre destin, sa vraie nature et découvre qu'il n'est peut-être pas ce qu'il pensait être.",
+    "type": "Blade Runner"
+}, {
+    "id": "_03",
+    "nom": "Rachael",
+    "image": "res://rachael",
+    "description": "Construite pour être humaine, on lui a donné les souvenirs d'une autre. Elle connait le passé et le présent, elle se donne sa raison d'être : hummaine.",
+    "type": "Réplicant"
+}, {
+    "id": "_04",
+    "nom": "Pris",
+    "image": "res://pris",
+    "description": "Féline naïve aux sensations émergentes.",
+    "type": "Réplicant"
+}, {
+    "id": "_05",
+    "nom": "Léon",
+    "image": "res://leon",
+    "description": "Usidae prédateur et puissant.",
+    "type": "Réplicant"
+}, {
+    "id": "_06",
+    "nom": "Zora",
+    "image": "res://zora",
+    "description": "Lascive et reptilienne.",
+    "type": "Réplicant"
+}]

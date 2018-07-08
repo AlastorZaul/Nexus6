@@ -1,0 +1,11 @@
+{
+    "android": {
+        "v8Flags": "--expose_gc"
+    },
+    "scripts": {
+        "compodoc": "./node_modules/.bin/compodoc -p src/tsconfig.app.json"
+    },
+    "main": "main.js",
+    "name": "tns-template-drawer-navigation-ng",
+    "version": "4.1.2"
+}
